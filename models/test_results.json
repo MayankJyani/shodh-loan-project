@@ -1,0 +1,10 @@
+{
+  "test_auc": 0.720019700168429,
+  "test_f1_default_threshold": 0.43223385344657317,
+  "test_precision_default_threshold": 0.31571354377055805,
+  "test_recall_default_threshold": 0.6850738792887553,
+  "optimal_threshold": 0.5500000000000002,
+  "test_f1_optimal_threshold": 0.43465087453518797,
+  "test_precision_optimal_threshold": 0.3431180691454664,
+  "test_recall_optimal_threshold": 0.5927873779113448
+}
