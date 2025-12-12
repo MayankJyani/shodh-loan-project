@@ -4,7 +4,7 @@ This project implements and compares two approaches to loan approval decisions:
 1. **Supervised Learning**: Deep learning model (MLP) predicting default probability
 2. **Offline Reinforcement Learning**: CQL / Q-agent learning optimal approval policy
 
-**Author**: Mayan  
+**Author**: Mayank Jyani  
 **Date**: December 2025
 
 ## Project Overview
@@ -92,13 +92,5 @@ python bootstrap_policy_test.py
 - Bootstrap results: `models/rl_q/bootstrap_rl_minus_sup.csv`
 - Final report: `reports/final_report.md` and optional `reports/final_report.pdf`
 
-## How to keep the README accurate
-- When you add or remove scripts under src/ or artifacts under models/ or reports/, update the "Corrected Repository Layout" section above.
-- To auto-generate a file list, run (from repo root):
-```powershell
-# Windows PowerShell
-Get-ChildItem -Recurse | Select-Object FullName | Out-File repo_file_list.txt
-```
-and paste the relevant sections into this README.
 
 # End of README
